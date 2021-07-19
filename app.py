@@ -100,3 +100,5 @@ html_temp = """
    </div>
    """
 st.markdown(html_temp,unsafe_allow_html=True)
+if _name_ == "_main_":
+    main()   # calling
