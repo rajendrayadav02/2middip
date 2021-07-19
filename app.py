@@ -4,6 +4,7 @@ import pickle
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import tensorflow as tf
 from keras.preprocessing import image
 import os
 from werkzeug.utils import secure_filename
@@ -99,5 +100,3 @@ html_temp = """
    </div>
    """
 st.markdown(html_temp,unsafe_allow_html=True)
-if _name_ == "_main_":
-    main()   # calling
